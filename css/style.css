@@ -441,6 +441,42 @@ a:hover{
 	}
 }
 
+@media (max-width: 470px) {
+
+	.footer{
+		height: 20px;
+	}
+
+	.copy{
+		line-height: 20px;
+		font-size: 0.9em;
+	}
+
+	.socials img{
+		width: 20px;
+	}
+
+}
+
+@media (max-width: 427px) {
+
+	.footer{
+		height: auto;
+	}
+
+	.copy{
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.socials{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
 @media (max-width: 350px) {
 
 	.header{
@@ -464,3 +500,16 @@ a:hover{
 	}
 
 }
+
+@media (max-width: 230px) {
+
+	.copy{
+		font-size: 0.8em;
+	}
+
+	.socials img{
+		width: 15px;
+	}
+
+}
+
