@@ -299,7 +299,7 @@ a:hover{
 
 .socials img{
 	width: 30px;
-	margin-right: 7.5px;
+	margin-right: 7.5px !important;
 	height: auto;
 }
 
