@@ -377,6 +377,14 @@ a:hover{
 
 }
 
+@media (max-width: 800px) {
+
+	.menu{
+		font-size: 0.79em;
+	}
+
+}
+
 @media (max-width: 771px) {
 
 	.header{
