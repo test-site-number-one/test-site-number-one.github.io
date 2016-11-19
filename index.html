@@ -12,7 +12,7 @@
 
 		<!-- Title -->
 
-		<title>Проект №1</title>
+		<title>About WebDesign — сообщество Веб-Дизайнеров</title>
 
 		<!-- Favicon -->
 
@@ -21,18 +21,18 @@
 		<!-- CSS -->
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
-		<!-- Google Fonts -->
-
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet">
 
 		<!-- JS -->
 
 		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/dropdown-menu.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/fixed-menu.js"></script>
-		<script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+
+		<!-- Google Fonts -->
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<!--[if lt IE 9]>
 			<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
@@ -42,178 +42,144 @@
 
 	</head>
 	<body>
-		
-		<!-- Header -->
 
-			<div class="header">
-				<div class="mid">
-					<div class="logotype">
-						<a href="#">Test Site</a>
-					</div>
-					<div class="menu-header">
-						<div class="main-menu">
+		<!-- Шапка сайта -->
+
+		<div class="container-fluid header">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-5 col-sm-4 col-xs-4 logotype">
+							<a href="#"><img src="img/logotype.png"></a>
+						</div>
+						<div class="col-lg-9 col-md-7 col-sm-8 col-xs-8 menu text-right">
 							<a href="#">Главная</a>
-							<a href="#">О сайте</a>
-							<a href="#">Контакты</a>
+							<a href="#">Публикации</a>
+							<a href="#">Тренинги</a>
 							<a href="#">Реклама</a>
 						</div>
-						<div class="dropdown-icon">
-							<img src="img/bars.png" id="dropdown-icon">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Баннер -->
+
+		<div class="banner">
+			<h2>About Web Design</h2>
+			<p>Сообщество начинающих Веб-Дизайнеров</p>
+			<div class="info">
+				<a href="#" type="button" class="btn btn-info">О сайте</a><span class="separator"></span><a href="#" type="button" class="btn btn-info">Обратная связь</a>
+			</div>
+			<div class="socials">
+				<a href="#"><i class="fa fa-vk"></i></a>
+				<a href="#"><i class="fa fa-facebook-f"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google"></i></a>
+				<a href="#"><i class="fa fa-youtube-play"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+			</div>
+		</div>
+
+		<!-- Контент -->
+
+		<div class="container content">
+			<div class="row">
+				<div class="articles">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/1.png" title="Windows или MacOS" alt="Windows или MacOS">
+							<a href="#"><h2>Windows или MacOS</h2></a>
+							<p class="main-p">Операционные системы Mac OS для многих являются настоящей экзотикой, хотя, как показывает статистика, в целом по миру они лишь немного уступают по [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 31 Октября, 2016</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/2.png" title="Что такое минимализм?" alt="Что такое минимализм?">
+							<a href="#"><h2>Что такое минимализм?</h2></a>
+							<p class="main-p">Минимализм — стиль в дизайне, характеризующийся лаконичностью выразительных средств, простотой, точностью и ясностью композиции [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 25 Октября, 2016</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/3.png" title="Шрифт Font Awesome" alt="Шрифт Font Awesome">
+							<a href="#"><h2>Шрифт Font Awesome</h2></a>
+							<p class="main-p">Font Awesome предлагает вам масштабируемые векторные иконки, которые вы можете с легкостью персонализировать — размер, цвет, тени и все, что можно [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 24 Октября, 2016</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/4.png" title="Адаптивная верстка" alt="Адаптивная верстка">
+							<a href="#"><h2>Адаптивная верстка</h2></a>
+							<p class="main-p">Сайтов с адаптивной разметкой с каждым месяцем становится все больше, заказчики кроме кроссбраузерности все чаще требуют адаптивность, но многие [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 21 Октября, 2016</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/5.png" title="Что лучше Windows 7 или 10?" alt="Что лучше Windows 7 или 10?">
+							<a href="#"><h2>Что лучше Windows 7 или 10?</h2></a>
+							<p class="main-p">Забудьте о таких новшествах, как голосовой ассистент Cortana, виртуальные рабочие столы или приложения Metro в окнах. Оставшиеся на Windows 7, не [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 19 Октября, 2016</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+						<div class="article">
+							<img src="img/articles/6.png" title="Как научиться быстро печатать?" alt="Как научиться быстро печатать?">
+							<a href="#"><h2>Как научиться быстро печатать?</h2></a>
+							<p class="main-p">Для того чтобы научиться быстро печатать на клавиатуре, многие записываются на курсы быстрой печати, проходят тренинги и платят деньги, приобретая [...]</p>
+							<p class="date"><i class="fa fa-calendar-o"></i> 16 Октября, 2016</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="nav">
+					<a href="#" type="button" class="btn btn-default">1</a>
+					<a href="#" type="button" class="btn btn-info">2</a>
+					<a href="#" type="button" class="btn btn-info">3</a>
+					<a href="#" type="button" class="btn btn-info">4</a>
+					<a href="#" type="button" class="btn btn-info">Далее »</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Футер Виджеты -->
+
+		<div class="container-fluid footer-content">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 text-widget">
+							<h3>Текстовой виджет</h3>
+							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
+						</div>
+						<div class="col-lg-4 col-md-4 text-widget">
+							<h3>Текстовой виджет</h3>
+							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
+						</div>
+						<div class="col-lg-4 col-md-4 text-widget">
+							<h3>Текстовой виджет</h3>
+							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-		<!-- /Header -->
-
-		<!-- Dropdown Menu -->
-
-			<div class="dropdown-menu">
-				<a href="#">
-					<div>Главная</div>
-				</a>
-				<a href="#">
-					<div>О сайте</div>
-				</a>
-				<a href="#">
-					<div>Контакты</div>
-				</a>
-				<a href="#">
-					<div>Реклама</div>
-				</a>
-				<div class="separator"></div>
-				<a href="#">
-					<div>Интересные Факты</div>
-				</a>
-				<a href="#">
-					<div>Новости Науки</div>
-				</a>
-				<a href="#">
-					<div>Что будет в Будущем?</div>
-				</a>
-				<a href="#">
-					<div>Секреты Мира</div>
-				</a>
-				<a href="#">
-					<div>Смешно до Слёз</div>
-				</a>
-			</div>
-
-		<!-- /Dropdown Menu -->
-
-		<!-- Menu -->
-
-			<div class="menu">
-				<div class="mid">
-					<a href="#">
-						<div>Интересные Факты</div>
-					</a>
-					<a href="#">
-						<div>Новости Науки</div>
-					</a>
-					<a href="#">
-						<div>Что будет в Будущем?</div>
-					</a>
-					<a href="#">
-						<div>Секреты Мира</div>
-					</a>
-					<a href="#">
-						<div>Смешно до Слёз</div>
-					</a>
-				</div>
-			</div>
-
-		<!-- /Menu -->
-
-		<!-- Content -->
-
-			<div class="wrapper">
-				<div class="content">
-					<div class="main-content">
-						<div class="article">
-							<img src="img/articles/1.png" title="10 фактов о Человеке Пауке" alt="10 фактов о Человеке Пауке">
-							<h2>
-								<a href="#">10 фактов о Человеке Пауке</a>
-							</h2>
-							<div class="info">
-								<span class="date">
-									<i class="fa fa-calendar-o" aria-hidden="true"></i> 12 Октября, 2016
-								</span>
-								<span class="separator"></span>
-								<span class="category">
-									<a href="#">Интересные Факты</a>
-								</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cum minus consequuntur consequatur totam optio fugiat placeat, adipisci alias dignissimos assumenda perspiciatis molestias, eveniet minima ad eaque error reiciendis sunt!</p>
-								<p>Porro, reprehenderit facere quisquam dignissimos. Officiis autem qui iste minus, recusandae ut praesentium alias aliquid nobis. Aspernatur corrupti, maiores eius suscipit, possimus dicta praesentium totam pariatur officia vero ipsa id?</p>
-							</div>
-						</div>
-						<div class="article">
-							<img src="img/articles/2.png" title="5 интересных фактов о Собаках" alt="5 интересных фактов о Собаках">
-							<h2>
-								<a href="#">5 интересных фактов о Собаках</a>
-							</h2>
-							<div class="info">
-								<span class="date">
-									<i class="fa fa-calendar-o" aria-hidden="true"></i> 9 Октября, 2016
-								</span>
-								<span class="separator"></span>
-								<span class="category">
-									<a href="#">Секреты Мира</a>
-								</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cum minus consequuntur consequatur totam optio fugiat placeat, adipisci alias dignissimos assumenda perspiciatis molestias, eveniet minima ad eaque error reiciendis sunt!</p>
-								<p>Porro, reprehenderit facere quisquam dignissimos. Officiis autem qui iste minus, recusandae ut praesentium alias aliquid nobis. Aspernatur corrupti, maiores eius suscipit, possimus dicta praesentium totam pariatur officia vero ipsa id?</p>
-							</div>
-						</div>
-						<div class="article">
-							<img src="img/articles/3.png" title="8 самых быстрых Машин в Мире" alt="8 самых быстрых Машин в Мире">
-							<h2>
-								<a href="#">8 самых быстрых Машин в Мире</a>
-							</h2>
-							<div class="info">
-								<span class="date">
-									<i class="fa fa-calendar-o" aria-hidden="true"></i> 7 Октября, 2016
-								</span>
-								<span class="separator"></span>
-								<span class="category">
-									<a href="#">Новости Науки</a>
-								</span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti cum minus consequuntur consequatur totam optio fugiat placeat, adipisci alias dignissimos assumenda perspiciatis molestias, eveniet minima ad eaque error reiciendis sunt!</p>
-								<p>Porro, reprehenderit facere quisquam dignissimos. Officiis autem qui iste minus, recusandae ut praesentium alias aliquid nobis. Aspernatur corrupti, maiores eius suscipit, possimus dicta praesentium totam pariatur officia vero ipsa id?</p>
-							</div>
-						</div>
-					</div>
-					<div class="side-bar">
-						<div class="block">
-							<img src="img/banner.png" title="Рекламный Баннер" alt="Рекламный Баннер">
-						</div>
-						<div class="block">
-							<!-- VK Widget -->
-							<div id="vk_groups"></div>
-							<script type="text/javascript">
-							VK.Widgets.Group("vk_groups", {mode: 3, width: "auto", color1: 'E7E7E7'}, 20003922);
-							</script>
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							About Web Design &copy; 2016
 						</div>
 					</div>
 				</div>
 			</div>
-
-		<!-- /Content -->
-
-		<!-- Footer -->
-
-			<div class="footer">
-				<div class="copy">
-					Все права защищены &copy; 2016
-				</div>
-				<div class="socials">
-					<a href="#"><img src="img/socials/fb.png"></a>
-					<a href="#"><img src="img/socials/t.png"></a>
-					<a href="#"><img src="img/socials/g.png"></a>
-					<a href="#"><img src="img/socials/i.png"></a>
-				</div>
-			</div>
-
-		<!-- /Footer -->
+		</div>
 
 	</body>
 </html>

@@ -1,9 +1,9 @@
 $(document).ready(function () {
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 80) {
-			$('.menu').attr('style', 'position: fixed;');
-		} else {
-			$('.menu').removeAttr('style');
+		if ($(this).scrollTop() > 50) {
+			$('.header').addClass('fixed');
+		} else	 {
+			$('.header').removeClass('fixed');
 		}
 	});
 });
