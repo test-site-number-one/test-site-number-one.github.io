@@ -1,185 +1,154 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
+  <head>
 
-		<!-- Meta -->
+    <!-- Meta -->
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="">
-		<meta name="description" content="">
-		<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Title -->
+    <!-- Title -->
 
-		<title>About WebDesign — сообщество Веб-Дизайнеров</title>
+    <title>Блог об IT</title>
 
-		<!-- Favicon -->
+    <!-- CSS -->
 
-		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
-		<!-- CSS -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  </head>
+  <body>
 
-		<!-- JS -->
 
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/fixed-menu.js"></script>
+    <!-- Header -->
 
-		<!-- Google Fonts -->
+    <div id="header" class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" id="h-left">
+                        <div id="h-logo">
+                            Блог об IT
+                        </div>
+                        <div id="h-menu">
+                            <a href="#">Главная</a>
+                            <a href="#">О сайте</a>
+                            <a href="#">Об авторе</a>
+                            <a href="#">Контакты</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" id="h-right">
+                        <div id="h-search" class="pull-right">
+                            <form class="form-inline">
+                              <div class="form-group">
+                                <div class="input-group">
+                                  <input type="text" class="form-control" id="input-search" placeholder="Поиск...">
+                                  <div class="input-group-addon" id="div-search"><a href="#"><i class="fa fa-search"></i></a></div>
+                                </div>
+                              </div>
+                            </form>
+                        </div>
+                        <div id="h-socials" class="pull-right">
+                            <a href="#"><img src="images/socials/vk.png" alt="vk"></a>
+                            <a href="#"><img src="images/socials/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="images/socials/twitter.png" alt="twitter"></a>
+                            <a href="#"><img src="images/socials/gmail.png" alt="gmail"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Content -->
 
-		<!--[if lt IE 9]>
-			<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+    <div id="content" class="container">
+        <div class="row">
 
-	</head>
-	<body>
+            <!-- Main -->
 
-		<!-- Шапка сайта -->
+            <div id="main" class="col-lg-9">
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Что такое минимализм?</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Разное</a> | 12 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Минимализм (англ. minimalism от лат. Minimus — наименьший) — стиль в дизайне, характеризующийся лаконичностью выразительных средств, простотой, точностью и ясностью композиции. Отвергая классические приемы творчества и традиционные художественные материалы, минималисты используют промышленные и природные материалы простых геометрических форм, нейтральных [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/2.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Как быстро печатать на клавиатуре?</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Разное</a> | 12 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Как научится быстро печатать на клавиатуре? - этот вопрос задают пользователи часто работающие с компьютером. Многие хотят узнать как "хакеры" в фильмах отстукивают тексты с большой скоростью не глядя на клавиатуру. Весь этот процесс называется слепой печатью. Что бы научиться быстро печать на клавиатуре не обязательно проходить специальные курсы, слепую печать можно освоить совершенно [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
 
-		<div class="container-fluid header">
-			<div class="row">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-5 col-sm-4 col-xs-4 logotype">
-							<a href="#"><img src="img/logotype.png"></a>
-						</div>
-						<div class="col-lg-9 col-md-7 col-sm-8 col-xs-8 menu text-right">
-							<a href="#">Главная</a>
-							<a href="#">Публикации</a>
-							<a href="#">Тренинги</a>
-							<a href="#">Реклама</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+            <!-- Side Bar -->
 
-		<!-- Баннер -->
+            <div id="side-bar" class="col-lg-3">
+                <div class="block" id="auth">
+                    <div class="b-title">
+                        <h2>Авторизация</h2>
+                    </div>
+                    <div id="inputs">
+                        <input type="text" placeholder="Введите ваш логин">
+                        <input type="password" placeholder="Введите ваш пароль">
+                    </div>
+                    <div id="other">
+                        <div id="password-recovery" class="pull-left">
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                        <div id="registration" class="pull-right">
+                            <a href="#">Нету аккаунта?</a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="login">
+                        <a href="#"><div>Войти</div></a>
+                    </div>
+                </div>
+            </div>
 
-		<div class="banner">
-			<h2>About Web Design</h2>
-			<p>Сообщество начинающих Веб-Дизайнеров</p>
-			<div class="info">
-				<a href="#" type="button" class="btn btn-info">О сайте</a><span class="separator"></span><a href="#" type="button" class="btn btn-info">Обратная связь</a>
-			</div>
-			<div class="socials">
-				<a href="#"><i class="fa fa-vk"></i></a>
-				<a href="#"><i class="fa fa-facebook-f"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-google"></i></a>
-				<a href="#"><i class="fa fa-youtube-play"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-			</div>
-		</div>
+        </div>
+    </div>    
 
-		<!-- Контент -->
+    <!-- JS -->
 
-		<div class="container content">
-			<div class="row">
-				<div class="articles">
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/1.png" title="Windows или MacOS" alt="Windows или MacOS">
-							<a href="#"><h2>Windows или MacOS</h2></a>
-							<p class="main-p">Операционные системы Mac OS для многих являются настоящей экзотикой, хотя, как показывает статистика, в целом по миру они лишь немного уступают по [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 31 Октября, 2016</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/2.png" title="Что такое минимализм?" alt="Что такое минимализм?">
-							<a href="#"><h2>Что такое минимализм?</h2></a>
-							<p class="main-p">Минимализм — стиль в дизайне, характеризующийся лаконичностью выразительных средств, простотой, точностью и ясностью композиции [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 25 Октября, 2016</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/3.png" title="Шрифт Font Awesome" alt="Шрифт Font Awesome">
-							<a href="#"><h2>Шрифт Font Awesome</h2></a>
-							<p class="main-p">Font Awesome предлагает вам масштабируемые векторные иконки, которые вы можете с легкостью персонализировать — размер, цвет, тени и все, что можно [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 24 Октября, 2016</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/4.png" title="Адаптивная верстка" alt="Адаптивная верстка">
-							<a href="#"><h2>Адаптивная верстка</h2></a>
-							<p class="main-p">Сайтов с адаптивной разметкой с каждым месяцем становится все больше, заказчики кроме кроссбраузерности все чаще требуют адаптивность, но многие [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 21 Октября, 2016</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/5.png" title="Что лучше Windows 7 или 10?" alt="Что лучше Windows 7 или 10?">
-							<a href="#"><h2>Что лучше Windows 7 или 10?</h2></a>
-							<p class="main-p">Забудьте о таких новшествах, как голосовой ассистент Cortana, виртуальные рабочие столы или приложения Metro в окнах. Оставшиеся на Windows 7, не [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 19 Октября, 2016</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<div class="article">
-							<img src="img/articles/6.png" title="Как научиться быстро печатать?" alt="Как научиться быстро печатать?">
-							<a href="#"><h2>Как научиться быстро печатать?</h2></a>
-							<p class="main-p">Для того чтобы научиться быстро печатать на клавиатуре, многие записываются на курсы быстрой печати, проходят тренинги и платят деньги, приобретая [...]</p>
-							<p class="date"><i class="fa fa-calendar-o"></i> 16 Октября, 2016</p>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="nav">
-					<a href="#" type="button" class="btn btn-default">1</a>
-					<a href="#" type="button" class="btn btn-info">2</a>
-					<a href="#" type="button" class="btn btn-info">3</a>
-					<a href="#" type="button" class="btn btn-info">4</a>
-					<a href="#" type="button" class="btn btn-info">Далее »</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Футер Виджеты -->
-
-		<div class="container-fluid footer-content">
-			<div class="row">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 text-widget">
-							<h3>Текстовой виджет</h3>
-							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
-						</div>
-						<div class="col-lg-4 col-md-4 text-widget">
-							<h3>Текстовой виджет</h3>
-							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
-						</div>
-						<div class="col-lg-4 col-md-4 text-widget">
-							<h3>Текстовой виджет</h3>
-							<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-fluid footer">
-			<div class="row">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							About Web Design &copy; 2016
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/auth.js"></script>
+    
+  </body>
 </html>
