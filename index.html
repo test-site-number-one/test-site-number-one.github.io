@@ -18,6 +18,10 @@
     <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
 
+    <!-- Vk Widget -->
+
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?136"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +44,7 @@
                             Блог об IT
                         </div>
                         <div id="h-menu">
-                            <a href="#">Главная</a>
+                            <a href="index.html">Главная</a>
                             <a href="#">О сайте</a>
                             <a href="#">Об авторе</a>
                             <a href="#">Контакты</a>
@@ -58,10 +62,10 @@
                             </form>
                         </div>
                         <div id="h-socials" class="pull-right">
-                            <a href="#"><img src="images/socials/vk.png" alt="vk"></a>
-                            <a href="#"><img src="images/socials/facebook.png" alt="facebook"></a>
-                            <a href="#"><img src="images/socials/twitter.png" alt="twitter"></a>
-                            <a href="#"><img src="images/socials/gmail.png" alt="gmail"></a>
+                            <a href="#"><img src="images/socials/vk.png" id="vk" alt="vk"></a>
+                            <a href="#"><img src="images/socials/facebook.png" id="facebook" alt="facebook"></a>
+                            <a href="#"><img src="images/socials/twitter.png" id="twitter" alt="twitter"></a>
+                            <a href="#"><img src="images/socials/gmail.png" id="gmail" alt="gmail"></a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +106,7 @@
                     <div class="col-lg-6 a-content">
                         <div class="a-header">
                             <div class="a-title"><h2><a href="#">Как быстро печатать на клавиатуре?</a></h2></div>
-                            <div class="a-info">Опубликовано в <a href="#">Разное</a> | 12 Ноября, 2016</div>
+                            <div class="a-info">Опубликовано в <a href="#">Разное</a> | 9 Ноября, 2016</div>
                         </div>
                         <div class="a-text">
                             <p>Как научится быстро печатать на клавиатуре? - этот вопрос задают пользователи часто работающие с компьютером. Многие хотят узнать как "хакеры" в фильмах отстукивают тексты с большой скоростью не глядя на клавиатуру. Весь этот процесс называется слепой печатью. Что бы научиться быстро печать на клавиатуре не обязательно проходить специальные курсы, слепую печать можно освоить совершенно [...]</p>
@@ -112,6 +116,131 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/3.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Урок адаптивной верстки</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Верстка</a> | 6 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Сайтов с адаптивной разметкой с каждым месяцем становится все больше, заказчики кроме кроссбраузерности все чаще требуют адаптивность, но многие разработчики не спешат обучаться новым техникам. Но адаптивный дизайн — это просто! В этой статье представлено 5 примеров адаптивной разметки различных элементов [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/4.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Windows, MacOS или Linux</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Разное</a> | 4 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Операционные системы Mac OS для многих являются настоящей экзотикой, хотя, как показывает статистика, в целом по миру они лишь немного уступают по распространенности Windows 7 от Microsoft (если учитывать вообще все версии Mac [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/5.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Freelance для начинающих</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Фичи для Программиста</a> | 3 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Слово freelance значит «свободное копье» и в средние века обозначало рыцаря, готового воевать по найму на любой воюющей стороне. В ХХ веке это слово (фриланс или фрилансерство) стало обозначать регулярное профессиональное выполнение работником тех или иных работ без зачисления в штат какой-либо компании и без создания собственной [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/6.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Photoshop или Experience Design?</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Photoshop</a> | 1 Ноября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Дизайнеры всего мира каждый день пользуются программами от компании Adobe. Всем известные Adobe Photoshop, Illustrator, Premiere Pro и After Effects заслуженно восседают на пьедестале лучших программ для творческих профессий, однако есть одна область в которой Adobe отдала первое место конкурентам — это UI/UX дизайн. Собственно эта статья о новой программе — Adobe Experience Design CC, или Adobe XD. Новинка должна вернуть [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/7.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Разработка игр для начинающих</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Разработка игр</a> | 25 Октября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Геймдев — занятие по настоящему увлекательное, особенно когда в команде есть как опытные программисты, так и новички. В отличии от таких движков как Unreal и CryEngine, в Unity достаточно низкий порог вхождения, и зачастую ветераны .NET и новички начинают выяснять отношения, которые заканчиваются дракой с применением офисной мебели. В этой статье я попытался собрать советы которые [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="col-lg-6 a-image">
+                        <img src="images/articles/8.png" alt="">
+                    </div>
+                    <div class="col-lg-6 a-content">
+                        <div class="a-header">
+                            <div class="a-title"><h2><a href="#">Установка Visual Studio</a></h2></div>
+                            <div class="a-info">Опубликовано в <a href="#">Фичи для Программиста</a> | 23 Октября, 2016</div>
+                        </div>
+                        <div class="a-text">
+                            <p>Программирование — это не только когда пишешь код, запускаешь его и удовлетворенно наблюдаешь за его безупречной работой, ведь зачастую он работает совсем не так, как мы рассчитываем! Возникает необходимость в эффективной отладке приложений, а это, оказывается, целое искусство! В данной статье я привожу свой собственный список советов, которые, как я надеюсь, помогут вам в отладке нативного [...]</p>
+                        </div>
+                        <div class="a-more">
+                            <a href="#"><div>Подробнее</div></a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="paginator">
+                    <a href="#">
+                        <div>1</div>
+                    </a>
+                    <a href="#">
+                        <div>2</div>
+                    </a>
+                    <a href="#">
+                        <div>3</div>
+                    </a>
+                    <a href="#">
+                        <div>4</div>
+                    </a>
+                    <a href="#">
+                        <div>Последняя</div>
+                    </a>
                 </div>
             </div>
 
@@ -123,8 +252,8 @@
                         <h2>Авторизация</h2>
                     </div>
                     <div id="inputs">
-                        <input type="text" placeholder="Введите ваш логин">
-                        <input type="password" placeholder="Введите ваш пароль">
+                        <input type="text" id="name" placeholder="Введите ваш логин">
+                        <input type="password" id="password" placeholder="Введите ваш пароль">
                     </div>
                     <div id="other">
                         <div id="password-recovery" class="pull-left">
@@ -135,8 +264,54 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
+                    <div id="fail-login"></div>
                     <div id="login">
-                        <a href="#"><div>Войти</div></a>
+                        <div id="loginSubmit">Войти</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="b-title">
+                        <h2>Категории</h2>
+                    </div>
+                    <div class="b-content">
+                        <ul>
+                            <li><a href="#">Верстка</a></li>
+                            <li><a href="#">Скрипты</a></li>
+                            <li><a href="#">JS и jQuery</a></li>
+                            <li><a href="#">Photoshop</a></li>
+                            <li><a href="#">Разработка игр</a></li>
+                            <li><a href="#">Шрифты</a></li>
+                            <li><a href="#">Фичи для Программиста</a></li>
+                            <li><a href="#">Разное</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="b-title">
+                        <h2>Популярные статьи</h2>
+                    </div>
+                    <div class="b-content">
+                        <ul>
+                            <li><a href="#">Что такое минимализм?</a></li>
+                            <li><a href="#">Как быстро печатать на клавиатуре?</a></li>
+                            <li><a href="#">Урок адаптивной верстки</a></li>
+                            <li><a href="#">Windows, MacOS или Linus?</a></li>
+                            <li><a href="#">Freelance для начинающих</a></li>
+                            <li><a href="#">Photoshop или Experience Design?</a></li>
+                            <li><a href="#">Разработка игр для начинающих</a></li>
+                            <li><a href="#">Установка Visual Studio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block" id="vk">
+                    <div class="b-title">
+                        <h2>Мы в Вконтакте</h2>
+                    </div>
+                    <div class="b-content">
+                        <div id="vk_groups"></div>
+                        <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 3, width: "auto", color1: 'fff'}, 84392011);
+                        </script>
                     </div>
                 </div>
             </div>
@@ -144,11 +319,30 @@
         </div>
     </div>    
 
+    <!-- Footer -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="footer">
+                    <div id="footer-left" class="pull-left">
+                        Блог об IT &copy; 2017
+                    </div>
+                    <div id="footer-right" class="pull-right">
+                        Design by Vlad Kandyba
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- JS -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/auth.js"></script>
+    <script src="js/socials-hover.js"></script>
+    <script src="js/fail-login.js"></script>
     
   </body>
 </html>
